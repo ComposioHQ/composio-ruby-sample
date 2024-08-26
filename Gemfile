@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'composio', '0.1.0'
+gem 'composio', '0.1.1'
