@@ -9,7 +9,5 @@ This example demonstrates how to use the Composio client to send an email using 
 
 ## Usage
 
-Before running the example, update the `connected_account_id` in `test.rb`.
-
 To run the example, use the following command:
 COMPOSIO_API_KEY=<COMPOSIO_API_KEY_HERE> ruby test.rb
