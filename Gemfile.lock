@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.2.0)
-    composio (0.1.0)
+    composio (0.1.1)
       faraday (>= 1.0.1, < 3.0)
       faraday-multipart (~> 1.0, >= 1.0.4)
     faraday (2.8.1)
@@ -19,7 +19,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  composio (= 0.1.0)
+  composio (= 0.1.1)
 
 BUNDLED WITH
    1.17.2
