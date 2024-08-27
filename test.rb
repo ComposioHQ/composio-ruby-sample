@@ -88,3 +88,8 @@ actions_output = composio_client.actions.execute(
 )
 
 puts "Action execution output: #{actions_output.inspect}"
+
+action_details = composio_client.actions.get_action_by_id(action_id: "GMAIL_SEND_EMAIL")
+
+puts "Action Properties for GMAIL_SEND_EMAIL"
+puts "Action parameters: #{action_details.parameters.inspect}"
