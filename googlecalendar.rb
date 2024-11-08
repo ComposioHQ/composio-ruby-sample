@@ -12,7 +12,8 @@ Composio.configure do |config|
   config.api_key = ENV['COMPOSIO_API_KEY']
 end
 
-# Format for time is YYYY,MM,DD,HH,MM,SS
+# The below codes find all the events for 11th november between 00:00:00 AM to 11:59:59 PM (UTC)
+# Format for time is YYYY,MM,DD,HH,MM,SS (Note: Timezone is UTC)
 actions_output = composio_client.actions.execute(
   action_id: "GOOGLECALENDAR_FIND_EVENT",
   app_name: "googlecalendar",
