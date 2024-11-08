@@ -12,11 +12,12 @@ Composio.configure do |config|
   config.api_key = ENV['COMPOSIO_API_KEY']
 end
 
+# Format for time is YYYY,MM,DD,HH,MM,SS
 actions_output = composio_client.actions.execute(
   action_id: "GOOGLECALENDAR_FIND_EVENT",
   app_name: "googlecalendar",
   entity_id: "default",
-  connected_account_id: "1ad1decd-85c8-4fd6-a5e7-36b9b1b9be4c",
+  connected_account_id: "<googlecalendar_connected_account_id>",
   input: {
     "timeMin" => "2024,11,09,00,00,00",
     "timeMax" => "2024,11,09,23,59,59"
